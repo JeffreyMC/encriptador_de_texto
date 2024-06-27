@@ -3,7 +3,7 @@
 Una aplicación sencilla para encriptar y desencriptar texto.
 
 ## Especificaciones
-Las "llaves" de encriptación que utilizaremos son las siguientes:
+Las "llaves" de encriptación son las siguientes:
 
 La letra "a" es convertida para "ai".
 La letra "e" es convertida para "enter".
