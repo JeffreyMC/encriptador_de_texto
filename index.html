@@ -3,18 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
     <title>Encriptador de texto</title>
 </head>
-<body>
-    <header>
+<body> 
+    <div class="image">
+        <img src="/images/Jeff-Coding-Full.png" alt="JeffCoding Logo">
+    </div>
+    <main class="presentacion">
+        <section class="presentacion__contenido">
+            <input class="texto__ingreso" type="text" placeholder="Ingrese su texto acá...">
 
-    </header>
-    
-    <main>
-
+            <div class="presentacion__botones">
+                <button class="boton">Encriptar</button>
+                <button class="boton">Desencriptar</button>
+            </div>
+        </section>
+        <div class="resultado__contenido">
+            <textarea class="resultado" name="resultado" id="resultado" placeholder="Resultado..."></textarea>    
+            <div class="boton__copiar__posicion">
+                <button class="copiar__texto">Copiar</button>
+            </div>
+        </div>
     </main>
 
-    <footer>
+
+    <footer class="footer">
         <p>Desarrollado por Jeffrey MC</p>
     </footer>
 
