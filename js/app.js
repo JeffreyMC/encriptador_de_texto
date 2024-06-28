@@ -109,7 +109,6 @@ btn_encriptar.addEventListener('click', function (){
     }else{
         let palabra_encriptada = encriptar(palabra);
         resultado.innerHTML = palabra_encriptada;
-        limpiar_campo('palabra');
     }
 });
 
@@ -126,7 +125,6 @@ btn_desencriptar.addEventListener('click', function(){
     }else{
         let palabra_desencriptada = desencriptar(palabra);
         resultado.innerHTML = palabra_desencriptada;
-        limpiar_campo('palabra');
     }
 });
 
