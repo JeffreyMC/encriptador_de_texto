@@ -20,3 +20,10 @@ Las "llaves" de encriptación son las siguientes:
 ### Ejemplos:
 * "gato" => "gaitober"
 * gaitober" => "gato"
+
+---
+## Capturas
+
+!['Captura de panralla de la aplicacion'](/images/desktop1.png)
+
+!['Captura de panralla de la aplicacion'](/images/desktop2.png)
